@@ -13,7 +13,7 @@ namespace KetvirtaUzduotisMokytojai
         private string klase;
         private string pareigos;
         private int stazas;
-        private string issivavinimas;
+        private string issilavinimas;
 
         public Mokytojas(string vardas, string pavarde, string klase, string pareigos, int stazas, string issivavinimas)
         {
@@ -22,7 +22,7 @@ namespace KetvirtaUzduotisMokytojai
             this.klase = klase;
             this.pareigos = pareigos;
             this.stazas = stazas;
-            this.issivavinimas = issivavinimas;
+            this.issilavinimas = issivavinimas;
         }
 
         public Mokytojas()
@@ -56,8 +56,8 @@ namespace KetvirtaUzduotisMokytojai
         }
         public string Issilavinimas
         {
-            get { return issivavinimas; }
-            set { issivavinimas = value; }
+            get { return issilavinimas; }
+            set { issilavinimas = value; }
         }
     }
 }
